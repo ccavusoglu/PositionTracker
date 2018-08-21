@@ -1,0 +1,52 @@
+.cell-title { font-weight: bold; }
+
+.cell-default { font-weight: 600; }
+
+.cell-binance { background-color: #D3A347; }
+
+.cell-bittrex { background-color: #8599C4; }
+
+.cell-bitfinex { background-color: #91DD8D; }
+
+.cell-blue4 {
+    background-color: #112A60;
+    color: azure
+}
+
+.cell-blue3 {
+    background-color: #233F79;
+    color: azure
+}
+
+.cell-blue2 { background-color: #566FA4; }
+
+.cell-blue1 { background-color: #8599C4; }
+
+.cell-green4 { background-color: #0F740A; }
+
+.cell-green3 { background-color: #25921F; }
+
+.cell-green2 { background-color: #63C65D; }
+
+.cell-green1 { background-color: #91DD8D; }
+
+.cell-foregreen { color: #3FAB39; }
+
+.cell-red4 { background-color: #8E0C10; }
+
+.cell-red3 { background-color: #B3262A; }
+
+.cell-red2 { background-color: #F37276; }
+
+.cell-red1 { background-color: #FDA2A4; }
+
+.cell-forered { color: #D1464A; }
+
+.cell-red { background-color: #D1464A; }
+
+.cell-green { background-color: #3FAB39; }
+
+.cell-selected {
+    background-color: #3FAB39;
+    color: azure;
+}

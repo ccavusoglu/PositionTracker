@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.4.0" />
+    <PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PositionTracker.Domain\PositionTracker.Domain.csproj" />
+    <ProjectReference Include="..\PositionTracker.Proxy\PositionTracker.Proxy.csproj" />
+    <ProjectReference Include="..\PositionTracker.Utility\PositionTracker.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

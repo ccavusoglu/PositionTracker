@@ -1,0 +1,117 @@
+body {
+}
+
+.body-content {
+    height: 100%;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.top-div {
+    min-height: 53px;
+    width: 100%;
+    background: gray;
+}
+
+.navigation {
+    min-height: 27px;
+    margin-top: 3px;
+}
+
+.main-nav {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+    .main-nav li {
+        list-style-type: none;
+        float: left;
+        margin-right: 2px;
+    }
+
+        .main-nav li span {
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            padding: 3px 60px 6px 5px;
+        }
+
+            .main-nav li span.active,
+            .main-nav li span:hover {
+                background-color: #0b86cb;
+            }
+
+.content-top {
+    background: darkgrey;
+    width: 100%;
+    min-height: 60px;
+}
+
+.section {
+    background: aliceblue;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+    /* transform: translateX(-20px); */
+    transition: visibility 0s .12s linear, opacity .12s ease-in, transform .12s ease-in;
+}
+
+    .section.is-shown {
+        pointer-events: auto;
+        visibility: visible;
+        opacity: 1;
+        visibility: visible;
+        transition: visibility 0s 0s linear, opacity .36s ease-out, transform .36s ease-out;
+    }
+
+.summary {
+    display: flex;
+    background-color: aliceblue;
+    padding-bottom: 1px;
+}
+
+    .summary div {
+        /* padding-right: 40px; */
+        font-weight: 600;
+    }
+
+        .summary div table {
+            text-align: left;
+            /* background-color: #FFE0A3; */
+        }
+
+            .summary div table thead {
+                background-color: slategray;
+            }
+
+    .summary .balance {
+        width: 300px;
+    }
+
+    .summary .tickers {
+        width: 300px;
+    }
+
+    .summary .total {
+        width: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+        .summary .total div {
+            background-color: #91DD8D
+        }
+
+.position-fetch-button {
+    width: 100px;
+    height: 27px;
+    margin: 10px;
+}
+
+.save-button {
+    width: 55px;
+    height: 27px;
+    margin: 10px;
+}

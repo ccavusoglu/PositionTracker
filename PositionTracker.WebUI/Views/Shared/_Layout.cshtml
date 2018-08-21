@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Position Tracker</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/global.css">
+    <link rel="stylesheet" href="~/css/cell.css">
+    <link rel="stylesheet" href="~/css/slick.grid.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/slick-custom.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/smoothness/jquery-ui-1.11.3.custom.css" type="text/css" />
+
+    @RenderSection("Head", required: false)
+</head>
+<body>
+    <div class="body-content">
+        @RenderBody()
+        @RenderSection("Scripts", required: false)
+    </div>
+</body>
+
+</html>
